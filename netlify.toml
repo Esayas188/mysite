@@ -1,3 +1,5 @@
 [build]
-  command = "npm run build"
-  functions = "functions"
+  base = "my-project" 
+  functions = "functions" 
+  publish = "my-project/build" 
+
