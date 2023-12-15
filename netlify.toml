@@ -1,5 +1,5 @@
 [build]
   base = "my-project" 
   functions = "functions" 
-  publish = "my-project/dist"
+  publish = "dist"
 
