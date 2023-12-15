@@ -13,7 +13,7 @@ const EmailSection = () => {
     const data = {email, subject, message}
     console.log("this is data",data)
 
-    const response = await fetch('/myproject/functions/send-email',{
+    const response = await fetch('/.netlify/functions/sendemail',{
       method: 'POST',
       body: JSON.stringify(data),
       headers: {
