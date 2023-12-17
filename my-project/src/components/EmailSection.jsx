@@ -5,6 +5,7 @@ import LinkedinIcon from "../../public/linkedin-icon.svg";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [loading,setLoading] = useState(false)
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
@@ -20,11 +21,13 @@ const EmailSection = () => {
         'Content-Type': 'application/json',
       }
     })
+    setLoading(true);
     const json = await response.json()
 
     if (!response.ok) {
 
       console.error('Error:', json);
+      setLoading(false);
 
     }
     if (response.ok) {
@@ -33,6 +36,8 @@ const EmailSection = () => {
       setSubject('')
       console.log('Message sent.', json);
       setEmailSubmitted(true);
+      setLoading(false);
+
 
     }
 
@@ -129,7 +134,7 @@ const EmailSection = () => {
               type="submit"
               className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
-              Send Message
+             {loading ? 'Sending' : 'Send Message'}
             </button>
           </form>
         )}
