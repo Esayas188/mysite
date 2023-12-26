@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Architectural Company Website",
-    description: "Project 2 description",
+    description: "landing page created with React",
     image: "/images/projects/project1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Esayas188/bruk",
@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "Recipe website",
-    description: "Project 3 description",
+    description: "Dynamic recipe website created with Mern stack",
     image: "/images/projects/project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Esayas188/recipe-mern",
@@ -26,8 +26,17 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "E-commerce website",
+    description: "Dynamic E-commerce website created with Django",
+    image: "/images/projects/project6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Esayas188/E-commerce",
+    previewUrl: "https://github.com/Esayas188/E-commerce",
+  },
+  {
+    id: 4,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "portfolio website created with React",
     image: "/images/projects/project3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Esayas188/SamuelFasil_website",
@@ -35,16 +44,16 @@ const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Civil Engineering website",
-    description: "Todo",
+    description: "Civil Engineering website created with django",
     image: "/images/projects/project5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Esayas188/Civil-Engineering-website",
     previewUrl: "https://github.com/Esayas188/Civil-Engineering-website",
   },
   {
-    id: 5,
+    id: 6,
     title: "React TodoList website",
     description: "Todo",
     image: "/images/projects/project4.png",
