@@ -35,6 +35,15 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "dejenehodes personal website",
+    description: "Personal website that is build with react and tailwindCSS",
+    image: "/images/projects/project7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Esayas188/project-website",
+    previewUrl: "https://dejenehodes.netlify.app/",
+  },
+  {
+    id: 5,
     title: "React Portfolio Website",
     description: "portfolio website created with React",
     image: "/images/projects/project3.png",
@@ -44,7 +53,7 @@ const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Civil Engineering website",
     description: "Civil Engineering website created with django",
     image: "/images/projects/project5.png",
@@ -53,7 +62,7 @@ const projectsData = [
     previewUrl: "https://github.com/Esayas188/Civil-Engineering-website",
   },
   {
-    id: 6,
+    id: 7,
     title: "React TodoList website",
     description: "Todo",
     image: "/images/projects/project4.png",
@@ -61,15 +70,7 @@ const projectsData = [
     gitUrl: "https://github.com/Esayas188/To-Do-_List",
     previewUrl: "https://mynewtodoapp0.netlify.app/",
   },
-  {
-    id: 7,
-    title: "dejenehodes personal website",
-    description: "Personal website that is build with react and tailwindCSS",
-    image: "/images/projects/project7.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Esayas188/project-website",
-    previewUrl: "https://dejenehodes.netlify.app/",
-  },
+
 
 
 
