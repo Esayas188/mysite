@@ -17,7 +17,7 @@ const TAB_DATA = [
         <li>TailwindCSS</li>
         <li>JavaScript (ES6+)</li>
         <li>React.js</li>
-        <li>React Native</li>
+        
       </ul>
       <div className="  flex lg:flex-row lg:gap-[60px] flex-col">
         <ul className="list-disc pl-2">
@@ -88,7 +88,7 @@ const AboutSection = () => {
          className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a passionate full-stack mobile and web developer with a knack for crafting interactive 
+          I am a passionate full-stack web developer with a knack for crafting interactive 
           and responsive applications. Combining expertise in front-end technologies like React and 
           Tailwind with a solid backend foundation in Node.js, Python, and databases, I am a fast learner 
           eager to tackle innovative projects. Let us build something remarkable together!
