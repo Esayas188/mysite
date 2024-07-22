@@ -61,6 +61,15 @@ const projectsData = [
     gitUrl: "https://github.com/Esayas188/To-Do-_List",
     previewUrl: "https://mynewtodoapp0.netlify.app/",
   },
+  {
+    id: 7,
+    title: "dejenehodes personal website",
+    description: "Personal website that is build with react and tailwindCSS",
+    image: "/images/projects/project7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Esayas188/project-website",
+    previewUrl: "https://dejenehodes.netlify.app/",
+  },
 
 
 
