@@ -2,6 +2,8 @@ import React, { useTransition, useState } from "react";
 import TabButton from "./TabButton";
 import programming1 from "../img/Programming-bro.svg";
 import programming from "../img/Code typing-bro (1).svg";
+import logo from "../../public/images/projects/logo.png"
+
 import { motion } from "framer-motion";
 
 
@@ -78,7 +80,7 @@ const AboutSection = () => {
         animate={{ y: [0, 20, 0], transition: { repeat: Infinity, duration: 2 } }}
 
         className="max-md:hidden flex justify-start items-start">
-        <img src={programming} width={500} height={500} />
+        <img src={programming1} width={500} height={500} />
 
 
         </motion.div>
