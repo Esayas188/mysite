@@ -72,8 +72,8 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="text-gray-900" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8  py-8  xl:gap-16 sm:py-16">
         <motion.div 
         animate={{ y: [0, 20, 0], transition: { repeat: Infinity, duration: 2 } }}
 
@@ -85,8 +85,8 @@ const AboutSection = () => {
         <motion.div
         initial={{x:"100vh"}}
         animate={{x:"0",transition:{ type:'spring',damping:10, duration:2}}}
-         className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+         className="mt-4 md:mt-0 justify-center flex flex-col h-full">
+          <h2 className="text-4xl font-bold  mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
           I am a passionate full-stack web developer with a knack for crafting interactive 
           and responsive applications. Combining expertise in front-end technologies like React and 
