@@ -2,7 +2,7 @@ import React, { useTransition, useState } from "react";
 import TabButton from "./TabButton";
 import programming1 from "../img/Programming-bro.svg";
 import programming from "../img/Code typing-bro (1).svg";
-import about from "../../public/images/projects/about.svg"
+import about from "../../public/images/projects/about1.svg"
 
 import { motion } from "framer-motion";
 
