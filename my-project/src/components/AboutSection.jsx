@@ -4,7 +4,9 @@ import programming1 from "../img/Programming-bro.svg";
 import programming from "../img/Code typing-bro (1).svg";
 import about from "../../public/images/projects/about1.svg"
 
+
 import { motion } from "framer-motion";
+import Certificates from "./Certificates";
 
 
 const TAB_DATA = [
@@ -57,7 +59,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack SoftWare Engineer</li>
+        
+        <Certificates/>
       </ul>
     ),
   },
